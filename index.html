@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marie Anjilee V. Naces | BSIT Student Portfolio</title>
+  <meta name="description" content="Portfolio of Marie Anjilee V. Naces, BSIT student at Cebu Eastern College: web, game and mobile app projects.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%BE%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
+
+
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="Marie Anjilee Naces, home">
+        <span class="brand-mark">MA</span><span class="brand-text">Marie Anjilee</span>
+      </a>
+
+      <nav id="menu" class="menu" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#prototypes">Prototypes</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch to night mode" title="Toggle light / night mode">
+          <svg class="i-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></svg>
+        </button>
+        <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">BSIT Student &middot; Cebu Eastern College</p>
+          <h1>Hi, I'm <span class="hl">Marie Anjilee</span> Naces.</h1>
+          <p class="lead">I'm learning to build web and mobile systems that solve everyday problems. My work so far includes a pet clinic system, a retro Filipino street game, and an animal rescue app that is still in progress.</p>
+          <div class="cta">
+            <a class="btn primary" href="#projects">View my projects</a>
+            <a class="btn" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-photo reveal">
+          <img src="images/profile.jpg" width="900" height="900" alt="Portrait of Marie Anjilee Naces smelling a white plumeria flower in a park">
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="about">
+      <div class="wrap two-col">
+        <div class="reveal">
+          <p class="eyebrow">About me</p>
+          <h2>A student builder, still in progress.</h2>
+        </div>
+        <div class="reveal">
+          <p>I'm <strong>Marie Anjilee V. Naces</strong>, a Bachelor of Science in Information Technology student at <strong>Cebu Eastern College</strong>. I'm using my classes to practice designing and building real, usable software, from the first screen sketch to a working page.</p>
+          <p>My projects tend to centre on helping people and animals: booking a pet clinic visit, reporting a stray, or adopting a rescued pet. I also enjoy making something playful, like a browser version of Patintero, a classic Filipino street game.</p>
+          <p>Most of my projects are still being built, and I label them honestly below. I'm here to keep learning.</p>
+          <dl class="facts">
+            <div><dt>Name</dt><dd>Naces, Marie Anjilee V.</dd></div>
+            <div><dt>Course</dt><dd>BSIT</dd></div>
+            <div><dt>School</dt><dd>Cebu Eastern College</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="skills">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>What I'm working with right now</h2>
+          <p class="muted">An honest list based on the projects on this page. I'm still growing in each of these.</p>
+        </div>
+        <ul class="skills reveal">
+          <li><span class="skill-name">HTML, CSS &amp; JavaScript</span><span class="skill-note">Building and styling web pages, as in my Patintero game and this portfolio</span></li>
+          <li><span class="skill-name">UI/UX prototyping in Figma</span><span class="skill-note">Mobile screens and an admin web portal, with clickable prototypes</span></li>
+          <li><span class="skill-name">Mobile app design</span><span class="skill-note">Planning flows for reporting, adoption and notifications in PawResQ</span></li>
+          <li><span class="skill-name">Web system design</span><span class="skill-note">Booking, pet records and admin screens in PawCare</span></li>
+          <li><span class="skill-name">Git &amp; GitHub</span><span class="skill-note">Keeping my class projects in repositories and publishing with GitHub Pages</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Class projects</h2>
+          <p class="muted">Tap a screenshot to view it larger.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <button class="shot cover" type="button" data-full="images/pawcare.jpg" data-alt="PawCare home page showing the hero, clinic overview and services offered">
+              <img src="images/pawcare.jpg" width="1400" height="713" loading="lazy" alt="PawCare home page showing the hero, clinic overview and services offered">
+            </button>
+            <div class="card-body">
+              <span class="pill">In progress</span>
+              <h3>PawCare System</h3>
+              <p>A pet clinic hub where clients can book visits, manage pet records and get reminders, while staff approve bookings, run reports and track payments from an admin console.</p>
+              <p class="role"><strong>My role:</strong> Design &amp; development</p>
+              <ul class="tags"><li>Web system</li><li>Booking</li><li>Admin console</li></ul>
+              <div class="links">
+                <a class="btn small" href="https://github.com/anjileenaces/IPT" target="_blank" rel="noopener">View source on GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <button class="shot cover" type="button" data-full="images/patintero.jpg" data-alt="Patintero game title screen with Play, How to Play and Leaderboard buttons over a pixel-art village sunset">
+              <img src="images/patintero.jpg" width="1400" height="705" loading="lazy" alt="Patintero game title screen with Play, How to Play and Leaderboard buttons over a pixel-art village sunset">
+            </button>
+            <div class="card-body">
+              <span class="pill">In progress</span>
+              <h3>Patintero</h3>
+              <p>A pixel-art browser game that brings back the Filipino street classic. Slip past the taggers and reach the glowing line without being tagged. It has a Play mode, a How to Play guide and a leaderboard.</p>
+              <p class="role"><strong>My role:</strong> Design &amp; development</p>
+              <ul class="tags"><li>Browser game</li><li>JavaScript</li><li>Pixel art</li></ul>
+              <div class="links">
+                <a class="btn small primary" href="https://marielle-https.github.io/PatinteroV2/" target="_blank" rel="noopener">Play the game</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <button class="shot phone" type="button" data-full="images/pawresq-app.jpg" data-alt="PawResQ mobile app splash screen with a dog and a cat and the tagline Help, Rescue, Adopt Together">
+              <img src="images/pawresq-app.jpg" width="403" height="805" loading="lazy" alt="PawResQ mobile app splash screen with a dog and a cat and the tagline Help, Rescue, Adopt Together">
+            </button>
+            <div class="card-body">
+              <span class="pill">In progress</span>
+              <h3>PawResQ Mobile App</h3>
+              <p>A mobile app for a kinder community: report animals that need rescue, find shelters, and apply to adopt. The app is still being built, so there is no public demo yet. The screens are previewed in the Figma prototypes below.</p>
+              <p class="role"><strong>My role:</strong> Design &amp; development</p>
+              <ul class="tags"><li>Mobile app</li><li>Rescue</li><li>Adoption</li></ul>
+              <div class="links">
+                <span class="btn small disabled" aria-disabled="true">Demo not available yet</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="prototypes">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Figma prototypes</p>
+          <h2>Design work you can click through</h2>
+          <p class="muted">Both prototypes open directly in Figma in a new tab.</p>
+        </div>
+
+        <div class="cards two">
+          <article class="card reveal">
+            <button class="shot contain dark" type="button" data-full="images/figma-admin.jpg" data-alt="Overview of the PawResQ administration web portal screens in Figma">
+              <img src="images/figma-admin.jpg" width="1140" height="859" loading="lazy" alt="Overview of the PawResQ administration web portal screens in Figma">
+            </button>
+            <div class="card-body">
+              <span class="pill alt">Prototype</span>
+              <h3>Web-based Administration Portal</h3>
+              <p>An admin portal for PawResQ staff: a sign-in page, dashboard, rescue reports, animal records, shelter register, adoption applications and an AI assistant panel.</p>
+              <p class="role"><strong>My role:</strong> UI design</p>
+              <div class="links">
+                <a class="btn small primary" href="https://www.figma.com/proto/v1VaL4N4hwENbW8nkDWX4E?node-id=164-2&amp;t=EKbw0r6YQZ0QxiYf-6" target="_blank" rel="noopener">Open in Figma</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <button class="shot contain dark" type="button" data-full="images/figma-mobile.jpg" data-alt="Overview of the PawResQ mobile application screens in Figma">
+              <img src="images/figma-mobile.jpg" width="722" height="868" loading="lazy" alt="Overview of the PawResQ mobile application screens in Figma">
+            </button>
+            <div class="card-body">
+              <span class="pill alt">Prototype</span>
+              <h3>Mobile Application</h3>
+              <p>The full mobile flow for PawResQ: onboarding and sign-in, reporting an animal, nearby shelters, adoption search and applications, notifications, settings, the PawBot assistant and document scanning.</p>
+              <p class="role"><strong>My role:</strong> UI design</p>
+              <div class="links">
+                <a class="btn small primary" href="https://www.figma.com/proto/v1VaL4N4hwENbW8nkDWX4E?node-id=0-1&amp;t=EKbw0r6YQZ0QxiYf-6" target="_blank" rel="noopener">Open in Figma</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="contact-box reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's connect</h2>
+          <p>Want to see more of my work or follow how these projects grow? Find me here.</p>
+          <div class="cta center">
+            <a class="btn primary" href="https://github.com/anjileenaces" target="_blank" rel="noopener">GitHub: anjileenaces</a>
+            <a class="btn" href="https://marielle-https.github.io/PatinteroV2/" target="_blank" rel="noopener">Play Patintero</a>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <p>&copy; 2026 Marie Anjilee V. Naces &middot; BSIT, Cebu Eastern College</p>
+      <a href="#top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <dialog id="lightbox" aria-label="Screenshot viewer">
+    <button class="icon-btn close" id="lbClose" type="button" aria-label="Close">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+    </button>
+    <img id="lbImg" src="" alt="">
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
